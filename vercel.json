@@ -1,7 +1,7 @@
 {
   "buildCommand": "NEXT_TELEMETRY_DISABLED=1 npm run build -w @katalyst/local-dashboard",
   "installCommand": "npm install --no-audit --no-fund",
-  "outputDirectory": "packages/local-dashboard/.next",
+  "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
     "NEXT_TELEMETRY_DISABLED": "1"
