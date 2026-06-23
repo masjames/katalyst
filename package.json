@@ -1,0 +1,17 @@
+{
+  "name": "katalyst",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first AI-powered development platform foundation.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev:dashboard": "npm run dev -w @katalyst/local-dashboard",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

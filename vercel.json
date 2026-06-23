@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build -w @katalyst/local-dashboard",
+  "installCommand": "npm install",
+  "outputDirectory": "packages/local-dashboard/.next",
+  "framework": "nextjs"
+}
